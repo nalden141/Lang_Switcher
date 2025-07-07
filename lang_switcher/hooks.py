@@ -5,6 +5,17 @@ app_description = "Switching between languages"
 app_email = "noor15511551@gmail.com"
 app_license = "mit"
 
+
+
+ 
+
+
+
+app_include_js = ["lang_switcher.bundle.js"]
+
+fixtures = [
+    {"dt": "Custom Field", "filters": {"module": "Lang Switcher"}},
+]
 # Apps
 # ------------------
 
